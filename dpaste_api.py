@@ -43,4 +43,3 @@ class dpaste_interface:
         p = requests.post(url, data=headers)
         self.paste_url = p.text.strip()
         self.expires = self.get_expiry(p.headers['Set-Cookie'])
-        return self.paste_url, self.expires
