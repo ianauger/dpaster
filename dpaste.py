@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from dpaste_api import dpaste_interface as dpi
 import argparse
 import pyperclip
